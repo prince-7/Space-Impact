@@ -5,6 +5,11 @@ body{
 	font-family: Lato;
 }
 
+ul
+{
+	list-style: none;
+	list-style-type: inline;
+}
 
 p
 {
