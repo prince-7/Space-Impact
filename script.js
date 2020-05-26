@@ -260,7 +260,7 @@ stage.addChild(over);
 
 
 
-window.addEventListener("keydown",keysDown);
+window.addEventListener("keyup",keysDown);
 window.addEventListener("keyup",keysUp);
 window.addEventListener("keypress",attack);
 window.addEventListener("keypress",project);
