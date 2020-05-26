@@ -144,8 +144,8 @@ function fire() {
   if(t>=4000)
   {
     for(var b=projs.length-1;b>=0;b--){
-    projs[b].position.x += 0.001*projSpeed*(t-4000);
-    projs[b].position.y += 0.00001*g*(t-4000);
+    projs[b].position.x += projSpeed;
+    projs[b].vy += 0.1;
     for(var e=faliens.length-1;e>=0;e--)
     {
       if(crash(projs[b],faliens[e]))
