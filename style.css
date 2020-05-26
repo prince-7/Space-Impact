@@ -1,5 +1,5 @@
 body{
-	padding-left: 400px;
+	padding-left: 300px;
 	color:white;
 	background-color: black;
 	font-family: Lato;
@@ -13,7 +13,7 @@ ul
 
 p
 {
-	font-size: 20px;
+	font-size: 10px;
 	font-family: Lato;
 	line-height: 10px;
 	word-spacing: 30px;
@@ -23,6 +23,6 @@ p
 #footer
 {
 	font-family: Lato;
-	font-size: 20px;
+	font-size: 10px;
 }
 
