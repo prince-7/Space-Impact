@@ -3,26 +3,5 @@ body{
 	color:white;
 	background-color: black;
 	font-family: Lato;
-}
-
-ul
-{
-	list-style: none;
-	list-style-type: inline;
-}
-
-p
-{
-	font-size: 10px;
-	font-family: Lato;
-	line-height: 10px;
-	word-spacing: 30px;
-
-}
-
-#footer
-{
-	font-family: Lato;
 	font-size: 10px;
 }
-
