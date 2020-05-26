@@ -11,8 +11,8 @@ var obj = PIXI.Texture.fromImage('images/bullet.png');
 var target =PIXI.Texture.from('images/alien.png');
 var green =PIXI.Texture.from('images/healthbar.png');
 var final =PIXI.Texture.from('images/gameover.png');
-var end = PIXI.Texture.from('images/youwin.jpg');
-var point =PIXI.Texture.from('images/checkpoint.jpg');
+var end = PIXI.Texture.from('images/youwin.png');
+var point =PIXI.Texture.from('images/checkpoint.png');
 
 
 var space = new PIXI.Sprite(gamebg);
@@ -144,7 +144,7 @@ function fire() {
   if(t>=4000)
   {
     for(var b=projs.length-1;b>=0;b--){
-    projs[b].position.x += projSpeed;
+    projs[b].position.x += 0.0001*projSpeed*(t-4000);
     projs[b].position.y += 0.00001*g*(t-4000);
     for(var e=faliens.length-1;e>=0;e--)
     {
