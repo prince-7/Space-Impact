@@ -145,7 +145,7 @@ function fire() {
   {
     for(var b=projs.length-1;b>=0;b--){
     projs[b].position.x += projSpeed;
-    projs[b].vy += 0.1;
+    projs[b].position.y += 0.5;
     for(var e=faliens.length-1;e>=0;e--)
     {
       if(crash(projs[b],faliens[e]))
@@ -259,9 +259,8 @@ stage.addChild(over);
 
 
 
-
-window.addEventListener("keypress",keysDown);
-window.addEventListener("keypress",keysUp);
+window.addEventListener("keydown",keysDown);
+window.addEventListener("keyup",keysUp);
 window.addEventListener("keypress",attack);
 window.addEventListener("keypress",project);
 
